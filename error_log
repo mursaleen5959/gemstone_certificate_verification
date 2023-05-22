@@ -1,0 +1,7 @@
+[22-May-2023 03:04:28 America/Boise] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home2/drdroyco/public_html/certificate_verification/admin/conn.php on line 10
+[22-May-2023 10:29:32 America/Boise] PHP Fatal error:  Uncaught TypeError: NumberFormatter::format(): Argument #1 ($num) must be of type int|float, string given in /home2/drdroyco/public_html/ohrtc/certificate_verification/index.php:6
+Stack trace:
+#0 /home2/drdroyco/public_html/ohrtc/certificate_verification/index.php(6): NumberFormatter->format('Fourteen')
+#1 /home2/drdroyco/public_html/ohrtc/certificate_verification/index.php(138): numberToWords('Fourteen')
+#2 {main}
+  thrown in /home2/drdroyco/public_html/ohrtc/certificate_verification/index.php on line 6
